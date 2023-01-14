@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <h1 id="round">Round 1</h1>
+    <div class="selections">
+        <div class="player">
+            <h2>Player</h2>
+            <div class="buttons">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>   
+        </div>
+        <div class="computer">
+            <h2>Computer</h2>
+            <div id="comp" class="compSelect">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="result">
+        <h2 class="score">Score</h2>
+        <p><i id="report"></i></p>
+        <p id="score"></p>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

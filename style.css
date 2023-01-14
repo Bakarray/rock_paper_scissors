@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+
+button, .compSelect {
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+}
+
+.compSelect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(160, 204, 212, 0.5);
+}
+
+h1 {
+    margin-bottom: 100px;
+}
+
+.player, .computer {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#rock {
+    background-color: grey;
+}
+
+.score {
+    text-decoration: underline;
+}
+
+.selections {
+    display: flex;
+    justify-content: space-around;
+}
+
+#scissors {
+    background-color: greenyellow;
+}
